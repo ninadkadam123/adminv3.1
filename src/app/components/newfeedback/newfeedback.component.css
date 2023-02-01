@@ -1,17 +1,20 @@
 .card-box{
 display: flex;
 flex-direction: row;
-gap:12px;
+gap:20px;
 flex-wrap: wrap;
+
+
 }
 
 .card{
- display: flex;
+display: flex;
 flex-direction: column;
+flex-wrap: wrap;
+height: fit-content;
+
 padding: 24px;
 gap: 12px;
-width: 303px;
-min-height: 193px;
 left: 120px;
 top: 235px;
 background: #FFFFFF;
@@ -19,16 +22,15 @@ border: 1px solid #00B2DA;
 box-shadow: 4px 4px 20px rgba(111, 174, 188, 0.2);
 }
 
+
 .feedback-text{
 width: 255px;
-min-height: 63px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 21px;
 color: #4E4E4E;
-
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -40,7 +42,6 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 4px 0px;
-
 gap: 8px;
 width: 255px;
 min-height: 22px;
