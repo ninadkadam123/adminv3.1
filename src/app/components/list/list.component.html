@@ -1,0 +1,34 @@
+<div>
+  <div class="method-list">
+    <div>
+      <span class="method-style">Method</span>
+      <span class="page-status">List</span>
+    </div>
+    <div class="center-div">
+      <div class="category-dropdown">Category</div>
+      <div class="searchBox">Seaarchbox</div>
+    </div>
+    <div class="button-container" (click)="addmethod()">
+      <button>Add New</button>
+    </div>
+  </div>
+  <div></div>
+
+  <div style="margin-bottom: 10px"></div>
+  <div class="list-box">
+    <div *ngFor="let l of list">
+      <div
+        class="list-card"
+        [style]="{
+          'background-color': l.category.color,
+          color: 'white'
+        }"
+        (click)="Update(l._id)"
+      >
+        <div class="img-di"><img src="{{ l.illustration }}" /></div>
+        <div>___________</div>
+        <div>{{ l.title }}</div>
+      </div>
+    </div>
+  </div>
+</div>

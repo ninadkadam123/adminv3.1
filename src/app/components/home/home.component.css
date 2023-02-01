@@ -1,0 +1,7 @@
+.work-Container{
+    display: flex;
+    max-width: 1453px; 
+    margin: auto;
+    padding-top: 48px;
+    align-items: center;
+}

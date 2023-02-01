@@ -1,0 +1,105 @@
+.card-box{
+display: flex;
+flex-direction: row;
+gap:12px;
+flex-wrap: wrap;
+}
+
+.card{
+ display: flex;
+flex-direction: column;
+padding: 24px;
+gap: 12px;
+width: 303px;
+min-height: 193px;
+left: 120px;
+top: 235px;
+background: #FFFFFF;
+border: 1px solid #00B2DA;
+box-shadow: 4px 4px 20px rgba(111, 174, 188, 0.2);
+}
+
+.feedback-text{
+width: 255px;
+min-height: 63px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+color: #4E4E4E;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.card-subfolder{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 4px 0px;
+
+gap: 8px;
+width: 255px;
+min-height: 22px;
+opacity: 0.5;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.card-email{
+width: 140px;
+min-height: 14px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #4E4E4E;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.card-date{
+width: 61px;
+min-height: 14px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 14px;
+color: #4E4E4E;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.card-lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 255px;
+   
+    height: 36px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    }
+
+.card-status{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px
+}
