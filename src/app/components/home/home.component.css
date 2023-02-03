@@ -5,3 +5,11 @@
     padding-top: 48px;
     align-items: center;
 }
+
+@media (max-width:952px){
+    
+    .work-Container{
+        padding: 20px;
+    }
+    
+}

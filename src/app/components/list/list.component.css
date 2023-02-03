@@ -190,9 +190,10 @@ flex-grow: 0;
             font-size: 12px;
             line-height: 15px;
         }
-        *{
-            padding: 2px;
-            
+
+        .list-box{
+            padding: 13px;
         }
-        
+           
+
     }

@@ -1,0 +1,29 @@
+.outer-container{
+    display: flex;
+    flex-direction: row;
+    max-width: 1453px; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 600px;
+}
+
+.detail-box{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 12px;
+gap: 22px;
+position: absolute;
+width: 600px;
+height: 135px;
+left: 120px;
+top: 240px;
+background: #FFFFFF;
+box-shadow: 4px 4px 20px rgba(111, 174, 188, 0.2);
+}

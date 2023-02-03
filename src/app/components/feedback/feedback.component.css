@@ -114,3 +114,25 @@
     .feedback-child{
         padding-top: 10px;
     }
+
+
+    @media (max-width:952px) {
+
+
+        .feedback-style{ 
+            font-size: 20px;
+            line-height: 25px;
+            margin-top: 56px;
+        }
+
+        .nav-box{
+            width: 89px;
+            height: 40px;
+            margin-top: 16px;
+        }
+
+        .feedback-child{
+            padding-left: 8px;
+        }
+
+    }
